@@ -1,4 +1,6 @@
-
+:root {
+  --background: #62929e;
+}
 
 * {
   box-sizing: border-box;
@@ -7,4 +9,38 @@
 body {
   height: 100vh;
   margin: 0;
+  background-color: var(--background);
+}
+
+.grid-container {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}
+
+.grid-tree {
+  border-radius: 15%;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-size: 19px;
+  cursor: pointer;
+  transition-duration: 0.7s;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+svg {
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
 }
