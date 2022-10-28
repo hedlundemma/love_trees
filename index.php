@@ -11,7 +11,7 @@ require(__DIR__ . '/header.php');
 
 
 <div class="grid-container">
-    <img class="grid-tree" src="/images/<?php echo getRandomTree(); ?>" width=400px height=400px alt="" />
+    <img class="grid-tree" src="<?php echo getRandomTree(); ?>" width=400px height=400px alt="" />
     <form>
         <button>Tree roulette</button>
     </form>
@@ -40,7 +40,7 @@ require(__DIR__ . '/header.php');
 
             $chatMessage = $_POST['alternative-2'];
 
-            echo getChatbotResponse($chatMessage);
+            echo getResponse($chatMessage);
 
 
 
