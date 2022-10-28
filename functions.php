@@ -16,30 +16,36 @@ function getRandomTree(): string
 function getChatbotResponse(string $key): string
 {
 
-    $responseMap = [
-        'hi' => [
+    $responseMaps = [
+        'Just say hi to me' => [
             'hello',
             'whats poppin',
             'hiiiii',
             'it is what it is'
         ],
-        'trees' => [
-            'I like trees',
-            'trees are the greatest thing',
-            'My favorite tree is birch'
+        'Tell me something about trees' => [
+            'Some tree species never die of old age',
+            'Trees release chemicals that can make us happier',
+            'Trees have been worshipped for centuries',
+            ' There are 422 times as many trees on earth as people',
+            'Trees help each other to ward off predators'
         ],
-        'tips' => [
-            'Go and hug your favorite tree'
+        'Tips to feel better' => [
+            'Go and hug your favorite tree',
+            'Spending time around trees reduces stress, lowers blood pressure and improves mood',
+            'Exposure to forests boosts our immune system'
+
         ],
     ];
 
-    // getting the responses from responseMap using the key
-    $keysResponses = $responseMap[$key];
+    foreach ($responseMaps as $theKey => $responseMap) {
+        if ($theKey == $key) {
+            $keysResponses = $responseMap;
+        }
+    }
 
-    // pick a random key
+    //pick a random key
     $randomKey = array_rand($keysResponses);
-
-
     $randomResponse = $keysResponses[$randomKey];
     return $randomResponse;
 }

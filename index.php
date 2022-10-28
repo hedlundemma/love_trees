@@ -17,33 +17,38 @@ require(__DIR__ . '/header.php');
     </form>
 </div>
 
+<div class="grid-container2">
+    <h3>What do you wanna know?</h3>
+    <form action="index.php" method="post">
+        <div>
 
-<h3>What do you wanna know?</h3>
+            <input type="radio" name="alternative-2" id="alternative-1" value="Just say hi to me" />
+            <label for="question-1-answers-A">Just say hi to me</label>
+        </div>
+        <div>
+            <input type="radio" name="alternative-2" id="alternative-2" value="Tell me something about trees" />
+            <label for="question-1-answers-A">Tell me something about trees</label>
+        </div>
+        <div>
+            <input type="radio" name="alternative-2" id="alternative-3" value="Tips to feel better" />
+            <label for="question-1-answers-A">Tips to feel better </label>
+        </div>
+        <input type="submit" class="button-2" value="Submit" class="submitbtn" />
+        <br>
+        <?php
+        if (isset($_POST['alternative-2'])) {
 
-<div>
-    <input type="submit" name="alternative-1" id="alternative-1" value="Just say hi to me" />
+            $chatMessage = $_POST['alternative-2'];
 
+            echo getChatbotResponse($chatMessage);
+
+
+
+            // echo "You said " . $chatMessage . "\n";
+            // echo "Chatbot said" . getChatbotResponse($chatMessage);
+        }
+
+        ?>
+        <br>
+    </form>
 </div>
-
-<div>
-    <input type="submit" name="alternative-2" id="alternative-2" value="Tell me something about trees" />
-
-</div>
-
-<div>
-    <input type="submit" name="alternative-3" id="alternative-3" value="Tips to feel better" />
-
-</div>
-
-
-
-
-
-
-<?php
-
-$chatMessage = 'hi';
-echo "You said " . $chatMessage . "\n";
-echo "Chatbot said" . getChatbotResponse($chatMessage);
-
-?>

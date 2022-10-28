@@ -10,16 +10,24 @@ body {
   height: 100vh;
   margin: 0;
   background-color: var(--background);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .grid-container {
   display: grid;
   place-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .grid-tree {
   border-radius: 15%;
+}
+
+.grid-container2 {
+  display: grid;
+  margin-left: 50px;
+  margin-bottom: 100px;
 }
 
 button {
@@ -33,14 +41,15 @@ button {
   border-radius: 10px;
 }
 
+.button-2 {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+
 button:hover {
   background-color: white;
   color: black;
-}
-
-svg {
-  width: 200px;
-  position: absolute;
-  bottom: 0;
-  top: 0;
 }
