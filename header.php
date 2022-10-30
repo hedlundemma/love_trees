@@ -10,6 +10,16 @@
 </head>
 
 <body>
-    <nav>
 
-    </nav>
+    <header>
+        <section class="header">
+            <h1>LOVE FOR TREES</h1>
+
+            <nav class="nav-button">
+
+                <a href="index.php">HOME</a>
+                <a href="info.php"> KNOWLEDGE</a>
+
+            </nav>
+        </section>
+    </header>

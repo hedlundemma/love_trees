@@ -2,36 +2,64 @@
   box-sizing: border-box;
 }
 
-:root {
-  --background: #19212a;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   height: 100vh;
   margin: 0;
-  background-color: var(--background);
+  background-color: #000000;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
 }
 
-.grid-container {
-  display: grid;
-  place-items: center;
+header {
+  width: 100%;
+  height: 10rem;
+  background-color: rgb(180, 255, 180);
+  color: black;
+  text-align: center;
+  padding: 1rem;
 }
 
-.grid-tree {
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+a {
+  background-color: #000000;
+  color: white;
+  padding: 0.7rem;
+  text-align: center;
+  justify-content: space-around;
+  display: inline-block;
+  border-radius: 0.8rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.flex-container-2,
+.flex-container {
+  padding: 2rem;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.tree {
   border-radius: 15%;
-}
-
-.grid-container2 {
-  display: grid;
-  margin-left: 50px;
-  width: 350px;
 }
 
 button {
@@ -54,14 +82,11 @@ button {
   transition-duration: 0.7s;
   border-radius: 10px;
   align-items: center;
+  justify-content: center;
 }
 
-button:hover {
-  background-color: #e4ffb9;
-  color: black;
-}
-
+button:hover,
 .button-2:hover {
-  background-color: #e4ffb9;
+  background-color: rgb(180, 255, 180);
   color: black;
 }
