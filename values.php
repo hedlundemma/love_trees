@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+
+
+
 $trees = array(
     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Large_white_oak_at_old_house_site.jpg/1024px-Large_white_oak_at_old_house_site.jpg',
 

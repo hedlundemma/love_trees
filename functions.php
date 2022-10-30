@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 require(__DIR__ . '/values.php');
 
-/** get random tree image file name
- * @return string tree file name
- */
+
 function getRandomTree(array $trees): string
 {
 
@@ -21,7 +19,6 @@ function getResponse(string $key, array $responseMaps): string
             $keysResponses = $responseMap;
         }
     }
-
     //pick a random key
     $randomKey = array_rand($keysResponses);
     $randomResponse = $keysResponses[$randomKey];
