@@ -46,16 +46,22 @@ a:link {
   display: flex;
   background-color: #000000;
   justify-content: center;
-  flex-direction: row;
+  align-items: center;
+
   width: 100%;
 }
 
 .flex-container-2,
 .flex-container {
+  display: flex;
   padding: 2rem;
-  width: 600px;
+  width: 800px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .tree {
@@ -71,6 +77,8 @@ button {
   cursor: pointer;
   transition-duration: 0.7s;
   border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-2 {
@@ -89,4 +97,12 @@ button:hover,
 .button-2:hover {
   background-color: rgb(180, 255, 180);
   color: black;
+}
+
+.container-emojis {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
 }
