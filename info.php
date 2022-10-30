@@ -2,7 +2,7 @@
 
 require(__DIR__ . '/header.php');
 require(__DIR__ . '/functions.php');
-require(__DIR__ . '/values.php');
+
 
 
 
@@ -28,8 +28,6 @@ require(__DIR__ . '/values.php');
                     <label for="question-1-answers-A">Tips to feel better </label>
                 </div>
                 <input type="submit" class="button-2" value="Submit" class="submitbtn" />
-
-
             </form>
             <br>
             <?php if (isset($_POST['choose'])) {
@@ -40,19 +38,12 @@ require(__DIR__ . '/values.php');
             ?>
         </div>
         <br>
-        <div class="answer">
-
-        </div>
     </section>
-
-
-
-
     <br>
     <section class="container-emojis">
         <div class="emojis">
             <?php for ($i = 0; $i <= 60; $i++) {
-                echo "🌳";
+                echo "🌳 ";
             }
             ?>
         </div>
