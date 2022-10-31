@@ -15,4 +15,5 @@ require(__DIR__ . '/header.php');
                 <button name="button" value="button-tree">Tree roulette</button>
             </form>
         </div>
+    </section>
 </main>

@@ -6,7 +6,7 @@ This project is a webpage with a tree-roulette where you can look at different t
 
 Theres also an tips-page where you can choose from three different categories and learn about trees and get some tips on how to feel better - related to trees. You can choose the same alternative multiple times and get different answers by pressing the submit button one more time.
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+Link to one.com-website: https://emma-hedlund.se/love_trees
 
 # Installation
 
@@ -26,5 +26,5 @@ Code review written by [Jane Doh](https://github.com/username).
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Filip Jonasson
+2. Vali Al Osachi
