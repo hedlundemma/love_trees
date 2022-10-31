@@ -2,6 +2,10 @@ INSERT MANDATORY GIF
 
 # Project Title
 
+This project is a webpage with a tree-roulette where you can look at different trees.
+
+Theres also an tips-page where you can choose from three different categories and learn about trees and get some tips on how to feel better - related to trees. You can choose the same alternative multiple times and get different answers by pressing the submit button one more time.
+
 Text about the project and why it exists. This would also be a great place to link the project on One.com.
 
 # Installation

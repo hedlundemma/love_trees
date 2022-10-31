@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 
 
-
+// indexed array containing tree-pictures for the getRandomTree-function
 $trees = array(
     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Large_white_oak_at_old_house_site.jpg/1024px-Large_white_oak_at_old_house_site.jpg',
 
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ilsfeld_-_Schozach_-_Schozacher_H%C3%B6he_-_Birke_vor_Sonnenuntergangs-Himmel_%281%29.jpg/914px-Ilsfeld_-_Schozach_-_Schozacher_H%C3%B6he_-_Birke_vor_Sonnenuntergangs-Himmel_%281%29.jpg',
+    'https://static01.nyt.com/images/2022/08/01/us/21californiatoday-1/21californiatoday-1-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+
+
 
     'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dead_Vlei_Tree_central.jpg/1600px-Dead_Vlei_Tree_central.jpg?20191027114624',
 
@@ -22,14 +24,18 @@ $trees = array(
 
     'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Beech_tree_at_crossing_-_geograph.org.uk_-_1884577.jpg/640px-Beech_tree_at_crossing_-_geograph.org.uk_-_1884577.jpg'
 
+
+
 );
 
+// associative multi-dimensional array containing responses for the getResponse-array
 $responseMaps = [
     'Just say hi to me' => [
         'hello',
         'whats poppin',
-        'hiiiii',
-        'it is what it is'
+        'hello beautiful',
+        'whats crackin good loockin',
+        ' hi buddy, youre doing alright'
     ],
     'Tell me something about trees' => [
         'Some tree species never die of old age',
@@ -41,7 +47,10 @@ $responseMaps = [
     'Tips to feel better' => [
         'Go and hug your favorite tree',
         'Spending time around trees reduces stress, lowers blood pressure and improves mood',
-        'Exposure to forests boosts our immune system'
+        'Exposure to forests boosts our immune system',
+        'Walk barefoot on grass to decrease stress level by 62 percent!',
+        'Spend some time in nature, it helps our immune-system'
+
 
     ],
 ];
