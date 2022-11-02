@@ -10,8 +10,6 @@ $trees = array(
 
     'https://static01.nyt.com/images/2022/08/01/us/21californiatoday-1/21californiatoday-1-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
 
-
-
     'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Dead_Vlei_Tree_central.jpg/1600px-Dead_Vlei_Tree_central.jpg?20191027114624',
 
     'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Leafy_tree_in_green_paddy_fields.jpg/1599px-Leafy_tree_in_green_paddy_fields.jpg?20180206122842',
@@ -28,28 +26,28 @@ $trees = array(
 
 );
 
-// associative multi-dimensional array containing responses for the getResponse-array
+// associative multi-dimensional array containing responses for the getResponse-array with string and integer-keys
 $responseMaps = [
     'Just say hi to me' => [
-        'hello',
-        'whats poppin',
-        'hello beautiful',
-        'whats crackin good loockin',
-        ' hi buddy, youre doing alright'
+        1 => 'hello',
+        2 => 'whats poppin',
+        3 => 'hello beautiful',
+        4 => 'whats crackin good loockin',
+        5 => ' hi buddy, youre doing alright'
     ],
     'Tell me something about trees' => [
-        'Some tree species never die of old age',
-        'Trees release chemicals that can make us happier',
-        'Trees have been worshipped for centuries',
-        ' There are 422 times as many trees on earth as people',
-        'Trees help each other to ward off predators'
+        1 => 'Some tree species never die of old age',
+        2 => 'Trees release chemicals that can make us happier',
+        3 => 'Trees have been worshipped for centuries',
+        4 => ' There are 422 times as many trees on earth as people',
+        5 => 'Trees help each other to ward off predators'
     ],
     'Tips to feel better' => [
-        'Go and hug your favorite tree',
-        'Spending time around trees reduces stress, lowers blood pressure and improves mood',
-        'Exposure to forests boosts our immune system',
-        'Walk barefoot on grass to decrease stress level by 62 percent!',
-        'Spend some time in nature, it helps our immune-system'
+        1 => 'Go and hug your favorite tree',
+        2 => 'Spending time around trees reduces stress, lowers blood pressure and improves mood',
+        3 => 'Exposure to forests boosts our immune system',
+        4 => 'Walk barefoot on grass to decrease stress level by 62 percent!',
+        5 => 'Spend some time in nature, it helps our immune-system'
 
 
     ],

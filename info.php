@@ -27,8 +27,8 @@ require(__DIR__ . '/functions.php');
             </form>
             <br>
             <?php
-            // if a value has been choosen - show the answer when pushing the button - not otherwise
-            if (isset($_POST['choose'])) {
+            // if a value has been choosen - show the answer when pushing the button - not otherwise. Use of boolean because isset returns true or false.  Returns false if value is null
+            if (isset($_POST['choose']) === true) {
                 $chatMessage = $_POST['choose'];
 
                 echo getResponse($chatMessage, $responseMaps);
@@ -41,7 +41,7 @@ require(__DIR__ . '/functions.php');
     <section class="container-emojis">
         <div class="emojis">
             <?php
-            // print 60 tree-emojis on the page
+            // print 60 tree-emojis on the page. Use of integer data type
             for ($i = 0; $i <= 60; $i++) {
                 echo "🌳 ";
             }

@@ -20,7 +20,7 @@ function getResponse(string $key, array $responseMaps): string
         }
     }
 
-    //pick a random key
+    //pick a random integer-key
     $randomKey = array_rand($keysResponses);
     $randomResponse = $keysResponses[$randomKey];
     return $randomResponse;
