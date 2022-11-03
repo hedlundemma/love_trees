@@ -14,13 +14,17 @@ Add the installation instructions.
 
 # Code Review
 
-Code review written by [Jane Doh](https://github.com/username).
+Code review written by [Simon Lövbacka](https://github.com/lovbackan).
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. `info.php:31-32` - You dont need the (=== true) in the if statement since it already is a boolean. 
+
+2. `info.php:15` - I dont think the (size="48px") has any function and even if it had u probably dont want to have inline css in ur html code. 
+
+3. `info.php:43-48` - I think it would be good practice to make this forloop inside a function in functions.php, where u can put a number in the function and it would echo that amount of trees and then just call the function in this line. Then u could reuse this function everytime u would need the pretty tree emoji. 
+
+4. `main.css: 55-56 -I dont think u need the .flex-container-2 since it has the same values as .flex-container. 
+
+5. `header.php: 12 ` - The title of ur loveley site should probably not be named document.  
 
 # Testers
 
