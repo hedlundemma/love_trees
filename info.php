@@ -50,4 +50,4 @@ require(__DIR__ . '/functions.php');
     </section>
 </main>
 
-<?php require(__DIR__ . 'footer.php'); ?>
+<?php require(__DIR__ . '/footer.php'); ?>
