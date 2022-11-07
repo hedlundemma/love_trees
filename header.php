@@ -22,3 +22,5 @@
             </nav>
         </section>
     </header>
+
+    <?php require(__DIR__ . 'footer.php'); ?>

@@ -26,7 +26,7 @@ $trees = array(
 
 );
 
-// associative multi-dimensional array containing responses for the getResponse-array with string and integer-keys
+// associative multi-dimensional array containing responses for the getResponse-array with string and integer-keys that i created
 $responseMaps = [
     'Just say hi to me' => [
         1 => 'hello',
@@ -48,6 +48,8 @@ $responseMaps = [
         3 => 'Exposure to forests boosts our immune system',
         4 => 'Walk barefoot on grass to decrease stress level by 62 percent!',
         5 => 'Spend some time in nature, it helps our immune-system'
+
+
 
 
     ],

@@ -49,3 +49,5 @@ require(__DIR__ . '/functions.php');
         </div>
     </section>
 </main>
+
+<?php require(__DIR__ . 'footer.php'); ?>
